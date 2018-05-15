@@ -71,6 +71,9 @@ export default {
     },
     rotate(rotationAngle) {
       this.$refs.croppieRef.rotate(rotationAngle)
+    },
+    update(data) {
+      this.updateInfo = data
     }
   }
 }
